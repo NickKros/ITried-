@@ -15,5 +15,5 @@ class MyApp(App):
 		main_widget = Builder.load_file(os.path.join(KIVYDIR, "firstScreen.kv"))
 		return main_widget
 
-if __name__ == "__main__":
-	MyApp().run()
+#if __name__ == "__main__":
+MyApp().run()
